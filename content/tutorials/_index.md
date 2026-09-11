@@ -4,7 +4,5 @@ sort_by = "weight"
 template = "section.html"
 page_template = "page.html"
 weight = 39
-[extra]
-show_pages = false
 +++
-To be announced.
+The following pages contain tutorials on how to set up the class tools.

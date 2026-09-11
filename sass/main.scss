@@ -476,3 +476,25 @@ ul.simple {
     background: white;
   }
 }
+
+// Keep the typeset grammar readable and scrollable on narrow screens.
+.grammar-scroll {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  overflow-x: auto;
+  border: 1px solid #dfe3e6;
+  border-radius: 6px;
+  background: #f8f9fa;
+}
+
+.grammar-scroll .katex-display {
+  margin: 0;
+  width: max-content;
+  min-width: 100%;
+  text-align: left;
+
+  > .katex {
+    text-align: left;
+    font-size: 1.05em;
+  }
+}
