@@ -1,0 +1,55 @@
+[[items]]
+name = "Syllabus"
+path = "/syllabus/"
+
+[[items]]
+name = "Schedule"
+path = "/schedule/"
+
+[[items]]
+name = "Project"
+path = "/project/"
+
+[[items.children]]
+name = "Overview"
+path = "/project/"
+
+[[items.children]]
+name = "Tutorials"
+path = "/tutorials/"
+
+[[items.children]]
+name = "Phase 1"
+path = "/project/phase-1/"
+
+[[items.children]]
+name = "Phase 2"
+path = "/project/phase-2/"
+
+[[items.children]]
+name = "Phase 3"
+path = "/project/phase-3/"
+
+[[items.children]]
+name = "Phase 4"
+path = "/project/phase-4/"
+
+[[items.children]]
+name = "Phase 5"
+path = "/project/phase-5/"
+
+[[items.children]]
+name = "Command Line Reference"
+path = "/project/cli/"
+
+[[items]]
+name = "Resources"
+path = "/resources/"
+
+[[items]]
+name = "Lectures"
+path = "/lectures/"
+
+[[items]]
+name = "Recitations"
+path = "/recitations/"

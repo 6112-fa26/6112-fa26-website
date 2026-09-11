@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="section-content {{ section.extra.class | default(value='') }}">
+<h1>{{ section.title }}</h1>
+{{ section.content | safe }}
+{% if section.pages and section.extra.show_pages | default(value=true) %}
+<h2>Pages</h2>
+<ol class="section-pages">
+  {% for page in section.pages %}
+  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+  {% endfor %}
+</ol>
+{% endif %}
+</div>
+{% endblock main %}

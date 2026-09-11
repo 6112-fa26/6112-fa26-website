@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ config.title }}</title>
+
+  <meta name="description" content="{{ config.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ config.title }}">
+  <meta property="og:description" content="{{ config.description }}">
+  <meta property="og:image" content="{{ get_url(path='og.png', trailing_slash=false) | safe }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ config.title }}">
+  <meta name="twitter:description" content="{{ config.description }}">
+  <meta name="twitter:image" content="{{ get_url(path='og.png', trailing_slash=false) | safe }}">
+
+  <link href="{{ get_url(path="main.css", trailing_slash=false) | safe }}" rel="stylesheet">
+  <link rel="icon" href="{{ get_url(path=config.extra.favicon, trailing_slash=false) | safe }}">
+  <link rel="apple-touch-icon-precomposed" href="{{ get_url(path=config.extra.bigicon, trailing_slash=false) | safe }}">
+  <script defer src="{{ get_url(path='assets/js/navigation.js', trailing_slash=false) | safe }}"></script>
+  {% if config.extra.katex %}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body, { delimiters: [{left: '$$', right: '$$', display: true}, {left: '\\[', right: '\\]', display: true}, {left: '\\(', right: '\\)', display: false}, {left: '$', right: '$', display: false}] });"></script>
+  {% endif %}
+  {% block header %}{% endblock header %}
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>
+          <a href="{{ get_url(path="/") }}">{{ config.title }}</a>
+      </h1>
+      {% set navigation = load_data(path="data/navigation.toml") %}
+      {% for item in navigation.items %}
+      {% set children = item.children | default(value=[]) %}
+      {% if children %}
+      <details class="nav-menu">
+        <summary>{{ item.name }}</summary>
+        <div class="nav-submenu">
+          {% for child in children %}
+          <a href="{{ get_url(path=child.path) | safe }}">{{ child.name }}</a>
+          {% endfor %}
+        </div>
+      </details>
+      {% else %}
+      <p><a href="{{ get_url(path=item.path) | safe }}">
+        {{ item.name }}
+      </a></p>
+      {% endif %}
+      {% endfor %}
+      {% if config.extra.links %}
+      <details class="nav-menu">
+        <summary>Links</summary>
+        <div class="nav-submenu">
+          {% for link in config.extra.links %}
+          <a href="{{ link.url | safe }}">{{ link.name }}</a>
+          {% endfor %}
+        </div>
+      </details>
+      {% endif %}
+    </nav>
+  </header>
+  <main>
+    {% block main %}
+    Hello, world!
+    {% endblock main %}
+  </main>
+  <footer>
+    <p><a href="https://www.mit.edu">Massachusetts Institute of Technology</a>
+    &mdash;
+    <a href="https://www.eecs.mit.edu">Electrical Engineering and Computer Science</a></p>
+    <p>Website adapted from <a href="https://www.cs.cornell.edu/courses/cs6120/">Cornell CS 6120</a>
+    &middot; <a href="{{ get_url(path='LICENSE.txt', trailing_slash=false) | safe }}">MIT License</a></p>
+  </footer>
+</body>
+</html>

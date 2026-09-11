@@ -1,0 +1,34 @@
+base_url = "https://6112-fa26.github.io"
+compile_sass = true
+build_search_index = false
+
+title = "6.112 Fall 2026"
+description = "Course website for 6.112 Dynamic Computer Language Engineering, Fall 2026"
+
+[markdown]
+smart_punctuation = true
+insert_anchor_links = "right"
+
+[markdown.highlighting]
+theme = "github-light"
+
+[extra]
+favicon = "/img/mit-favicon.ico"
+bigicon = "/img/mit-apple-touch-icon.png"
+katex = true
+
+[[extra.links]]
+name = "GitHub"
+url = "https://github.com/6112-fa26/"
+
+[[extra.links]]
+name = "Piazza"
+url = "https://piazza.com/mit/fall2026/61120"
+
+[[extra.links]]
+name = "Calendar"
+url = "https://calendar.google.com/calendar/u/1?cid=Y182NmY3N2YzYTUxNjY1ZGNhYTBjNTdmNzYzZjIxNGVhZGViMjA2ZTA3YTE2Yzc2NzAzZTJiZjJiOGY5ODMyMjM4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20"
+
+[[extra.links]]
+name = "Gradescope"
+url = "https://www.gradescope.com/courses/1378085"

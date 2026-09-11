@@ -1,0 +1,9 @@
+# Ignore vim swap files
+*.swp
+*.swo
+
+.DS_Store
+public/
+
+# Keep unreleased course materials local.
+/unreleased/
