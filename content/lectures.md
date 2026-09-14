@@ -7,8 +7,8 @@ This page contains links to the presentations and supplementary material that ac
 
 
 - [L1: Course Overview](https://docs.google.com/presentation/d/1en1Q4ykZiDOtKDvAb2arb3w5ZACdFEgr/edit?usp=sharing)
-- L2: Lexing
-- L3: Parsing I
+- [L2: Lexing](https://docs.google.com/presentation/d/1AEw3J7ZDmopT43gErV47wyNYFT9O2kOI/edit?usp=sharing)
+- [L3: Parsing I](https://docs.google.com/presentation/d/1Sb_uPSsjHD42iqpe4izTDGDYRFxmwoPA/edit?usp=sharing)
 - L4: Parsing II
 - L5: Parsing III
 - L6: Semantics (Intro)
