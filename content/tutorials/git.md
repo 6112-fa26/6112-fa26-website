@@ -59,7 +59,7 @@ This information is stored in a special directory called `.git` located in the p
 
 A repository on the Internet that you can download and push to is called a _remote_ (as opposed to a _local repository_, like the cloned copy you just made that's living on your computer). When you did the `git clone`, Git set up a remote called `origin` pointing to the `java-skeleton` repository. We used `git remote set-url` to make `origin` point to your personal repository instead.
 
-The `git remote` family of commands is useful to know when working across multiple remotes. For example, you will encounter them again when you transfer your phase 1 repository to your team repository. For the most part, though, you will only be interacting with one main repository, so we won't go into remotes any further here.
+The `git remote` family of commands is useful to know when working across multiple remotes. For example, you will encounter them again when you bring your work from phases 1–3 into your team repository at the start of Phase 4. For the most part, though, you will only be interacting with one main repository, so we won't go into remotes any further here.
 
 The last command, `git push`, copies the `main` branch from your local repository to the `origin` repository, i.e. your GitHub repository. We'll go into more detail about `git push` later; first, we'll explain what the `main` branch is.
 
@@ -67,7 +67,7 @@ A repository can hold multiple _branches_ of code. One of these branches is desi
 
 If you did not clone the skeleton repository and instead created your own git repo from scratch, Git may have named the branch `master`. GitHub recommends renaming this to `main`; you can do this by running `git branch -m main`, and, if you already ran the `git push` command, changing the branch name on Github under `Settings > Branches` in the repository page. The first step renames the branch in your local repository, and the second step renames it in GitHub's copy.
 
-Git branches are very powerful, and we strongly recommend you learn how to use them to develop code simultaneously with your partners. The rest of this documentation, however, will assume you're running on the main branch (`main`) of the GitHub remote (`origin`).
+Git branches are very powerful, and we strongly recommend you learn how to use them to develop code simultaneously with your partner. The rest of this documentation, however, will assume you're running on the main branch (`main`) of the GitHub remote (`origin`).
 
 ## Exploring the commit history
 
@@ -236,7 +236,7 @@ Finally, consider the scenario where you find that the project is broken and you
 git revert <hash>
 ```
 
-There's a whole lot more you can do with git with branches, hard resets, and interactive staging/rebasing, but hopefully this gives you the basic tools needed to work effectively on the group project and the background needed to understand more advanced features. If you encounter problems using Git, consult the TAs.
+There's a whole lot more you can do with git with branches, hard resets, and interactive staging/rebasing, but hopefully this gives you the basic tools and background needed to work effectively on the project. If you encounter problems using Git, consult the TAs.
 
 # More resources
 
