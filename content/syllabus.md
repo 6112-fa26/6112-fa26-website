@@ -37,8 +37,14 @@ We can point you to [recommended textbooks][textbooks], [technical papers and us
 
 ## Project
 
-The main component of this course is a project where you will build a language implementation almost entirely from scratch. The first two phases (which cover parsing, lexing, and interpretation) of the project will be done individually, and the rest of the project will be done in groups of two.
+The main component of this course is a project where you will build a language implementation almost entirely from scratch. Phases 1–3 (lexing and parsing, interpretation, and memory management) will be done individually. Phases 4–5 (the virtual machine and performance optimization) will be done in groups of two.
 Details about the project can be found on the [project overview][project] page. Specific instructions for each phase of the project will be released later in the class.
+
+### In-Person Evaluations
+
+Phases 1–4 will each include a graded in-person evaluation in the form of a quiz held during regular class hours. Each quiz will cover material related to its corresponding project phase. Phase 5 will not have an in-person evaluation.
+
+Please check the [course calendar][calendar] for the dates. More information, including practice material, will be released closer to each evaluation.
 
 ## Class
 
@@ -57,21 +63,20 @@ If you have taken [6.110](https://6110-sp25.github.io), you may be familiar with
 ## Office Hours
 See the [office-hours schedule][office-hours] for more information.
 
-## Quizzes
-Two quizzes will be held during class time. Please check the [course calendar][calendar] for the dates. More information about quizzes, including practice material, will be released closer to the quiz dates.
-
 ## Grading
 
-Your grade is based upon three components: the project (65%), two quizzes (30%, 15% each), and class participation (5%). 
+Your course grade is based on the five project phases, which total 100%. Class participation provides up to **5 additional percentage points of extra credit**.
 
 | Component                          | Weight |
 | ---------------------------------- | ------ |
-| Project phases 1 and 2 (combined)   | 5%     |
+| Project phase 1 (lexing and parsing) | 10%   |
+| Project phase 2 (interpretation)    | 15%    |
 | Project phase 3 (memory management) | 10%    |
-| Project phase 4 (virtual machine)   | 20%    |
+| Project phase 4 (virtual machine)   | 35%    |
 | Project phase 5 (derby)             | 30%    |
-| Quizzes (15% each)                 | 30%    |
-| Class participation                | 5%     |
+| Class participation (extra credit) | +5%    |
+
+The grade for each phase will be determined by the submitted project code and, where applicable, the in-person evaluation.
 
 ## Late Policy
 
@@ -81,8 +86,8 @@ If you have additional extenuating circumstances, we can grant additional extens
 
 ## Collaboration Policy
 
-While you may discuss the high-level approaches to the project with anybody, you must develop your code within your team (or by yourself for [phase 1][phase_1] and [phase 2][phase_2] of the project). In particular:
-- You _are allowed_ to use reference material available online, as well as resources and existing libraries, as long as you cite them in your project reports, and they don't trivialize the project. (Please use your best judgment here, and ask the course staff if you are unsure.) If you decide to use larger code snippets, please also explain how you adapted and used them in your project report.
+While you may discuss the high-level approaches to the project with anybody, you must develop your code individually for phases 1-3, and only with your assigned partner for phases 4–5. In particular:
+- You _are allowed_ to use reference material available online, as well as resources and existing libraries, as long as you cite them in your repository’s README and they don't trivialize the project. (Please use your best judgment here, and ask the course staff if you are unsure.) If you decide to use larger code snippets, please also explain how you adapted and used them.
 - You _are allowed_ to use LLM-generated code. Make sure to read [the AI policy](#ai-policy) below.
 - You _may not_ share any code with other teams.
 - You _may not_ post your project code on publicly accessible websites or file spaces, including public GitHub repositories.
@@ -91,7 +96,7 @@ While you may discuss the high-level approaches to the project with anybody, you
 
 You are allowed to use AI in an unrestricted way, except for in-person evaluations.
 
-More specifically, you are allowed to use LLM - generated code in your project, and use it to brainstorm ideas. However, you will need to maintain a firm graps of your codebase and an in depth understanding of the semantics of the language to perform well in the class.  
+More specifically, you are allowed to use LLM-generated code in your project and use LLMs to brainstorm ideas. However, you will need to maintain a firm grasp of your codebase and an in-depth understanding of the semantics of the language to perform well in the class.
 
 [004]: https://student.mit.edu/catalog/m6a.html#6.1910
 [031]: https://student.mit.edu/catalog/m6a.html#6.1020
@@ -100,8 +105,6 @@ More specifically, you are allowed to use LLM - generated code in your project, 
 [piazza]: https://piazza.com/mit/fall2026/61120/home
 [gradescope]: https://www.gradescope.com/courses/1378085
 [s3]: https://studentlife.mit.edu/s3
-[phase_1]: @/project/phase_1.md
-[phase_2]: @/project/phase_2.md
 [textbooks]: @/resources.md#recommended-textbooks
 [inspiration]: @/resources.md#other-sources-of-inspiration
 [references]: @/resources.md#references

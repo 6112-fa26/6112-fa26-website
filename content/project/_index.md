@@ -12,7 +12,7 @@ class = "project-overview"
 
 This is an overview of the course project and how we’ll grade it. You should not expect to understand all the technical terms, since we haven’t yet covered them in class. We’re handing it out today to give you some idea of the kind of project we’re assigning, and to let you know the various due dates. Additional handouts will provide the technical details of the project.
 
-[Phase 1][phase_1] and [Phase 2][phase_2] will be done individually. For subsequent phases, the class will be divided into groups of two students. You will be allowed to choose your own partners as much as possible. Each group will write, in C++, a virtual machine for a simple dynamically-typed programming language. We expect all groups to complete all phases successfully. Each subsequent project will build on your work from prior phases, so do not fall behind!
+[Phase 1][phase_1], [Phase 2][phase_2], and [Phase 3][phase_3] will be done individually. For phases 4–5, the class will be divided into groups of two students. You will be allowed to choose your own partners as much as possible. Over the course of the project, you will build, in C++, a virtual machine for a simple dynamically-typed programming language. We expect everybody to complete all phases successfully. Each subsequent project will build on your work from prior phases, so do not fall behind!
 
 ## [Phase 1: Lexing and Parsing](@/project/phase_1.md)
 
@@ -36,7 +36,7 @@ This project will familiarize you with the full semantics of the MITScript langu
 
 ## [Phase 3: Memory Management](@/project/phase_3.md)
 
-In this phase, your group will implement a garbage collector, which will be integrated into your virtual machine (in phase 4). Up until now, we have not prescribed how your MITScript interpreter should handle the allocation of memory for the data structures in an MITScript program. It is not unreasonable to expect that your interpreter either consumes or leaks substantial amounts of memory.
+In this phase, you will implement a garbage collector, which will be integrated into your virtual machine (in phase 4). Up until now, we have not prescribed how your MITScript interpreter should handle the allocation of memory for the data structures in an MITScript program. It is not unreasonable to expect that your interpreter either consumes or leaks substantial amounts of memory.
 
 You will address that problem by implementing a garbage collector. The garbage collector consists of a set of allocation routines that you will use to allocate runtime objects, as well as a set of collection routines that will periodically scan the heap of your MITScript program and identify dead memory that can be freed.
 
@@ -69,19 +69,17 @@ The last class will be the “Virtual Machine Derby” at which your group will 
 
 For the grading rubric, read the ["Grading" section from the syllabus][syllabus].
 
-For each phase, you are required to submit your *design report*, *complete source code* (including all files needed to build your project), and *additional test cases*. Your projects will be submitted via Gradescope. Do not include compiled files. Instead, you repo should contain an executable file called `build.sh` in the top-level directory which will compile your code. These files are provided for you in the skeleton code; you may modify them if you need to.
+For each phase, you are required to submit your *complete source code* (including all files needed to build your project). Your projects will be submitted via Gradescope. Do not include compiled files. Instead, your repo should contain an executable file called `build.sh` in the top-level directory which will compile your code. These files are provided for you in the skeleton code; you may modify them if you need to.
 
-In addition, for some phases, we will have graded in-person evaluations to test your understanding of the project. They will be done during regular class time / location. More details will be announced soon. 
+In addition, for phases 1-4, we will have graded in-person evaluations to test your understanding of the project. They will be done during regular class hours at the usual class location. They will be in the form of a written quiz.
 
-Phases 3 through 5 will be done in groups. Each group will be given access to a repository for their project on Github.
+Phases 4–5 will be done in groups of two. Each group will be given access to a repository for their project on GitHub.
 
 There are few restrictions on how the project should be structured, except that it should be self-contained (apart from the allowed libraries and programming environment), and contain executables `build.sh` and `run.sh` in the top-level directory.
 
 We will release public tests associated with each phase, which will be released with the phase instructions. There are also private tests, which will be released **after** the due date of each phase. We will grade your submission based on both the public and private tests after each phase.
 
-Your design report and additional test cases will make up a portion of your grade for each phase. Please make sure not to neglect turning it in.
-
-> **Note:** For phases 3 to 5, your project grade will have two components:
+> **Note:** For phases 4–5, your project grade will have two components:
 > 1. **Group Grade**: Determined by grading rubric for that particular phase.
 > 2. **Individual Grade**: Determined by your contributions to the project. **Be prepared to explain those during an oral interview with a TA or Instructor**. The goal is to determine which parts of the project you worked on, what you did, what worked and did not work in your development process and in your part of the submitted project, and how well you can explain what you did and did not do and accomplish.
 >
@@ -91,4 +89,5 @@ Your design report and additional test cases will make up a portion of your grad
 
 [phase_1]: @/project/phase_1.md
 [phase_2]: @/project/phase_2.md
+[phase_3]: @/project/phase_3.md
 [syllabus]: @/syllabus.md#grading

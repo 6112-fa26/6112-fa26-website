@@ -79,18 +79,15 @@ You **should** implement the Visitor pattern for your AST data structure in this
 We'll cover the Visitor pattern in more detail in the following two recitations.
 
 ### Submission and Grading
-Phase 1 is worth **5%** of the overall grade in this course. It's due at **10pm** (not **11:59pm**) on **Monday, September 28th**.
+Phase 1 is worth **10%** of the overall grade in this course. Your code is due at **10:00 PM** (not **11:59 PM**) on **Tuesday, September 22**. The in-person evaluation will be held on **Monday, September 28, during regular class hours**.
 
-You'll be required to submit the following deliverables on Gradescope:
-1. Code Submission (autograded). This will include about 200 scanner tests and about 200 parser tests (many private). You can see your score at any time, but not the details of the particular test case that's failing.
-2. Short report (1-2 paragraphs)
-3. 10 additional test cases of your own
+Your Phase 1 grade consists of **80% in-person evaluation** and **20% passing the automated tests for your scanner and parser**. Submit only your code on Gradescope; no additional test cases or project report are required. See the [Phase 1 handout](@/project/phase_1.md#grading) for details.
 
-At this point, you should have received an invite to join the course organization ([6112-fa26](https://github.com/6112-fa26)). We've created a repo for each person for the first two phases. This repo should be your *kerberos*.
+At this point, you should have received an invite to join the course organization ([6112-fa26](https://github.com/6112-fa26)). We've created a repo for each person for the first three phases. This repo should be your *kerberos*.
 
 If you don't have access to either the repo or the class organization, please let us know immediately. Make sure to accept the invite for both the repository and organization!
 
-We provide public test cases in the [6112-fa26/tests](https://github.com/6112-fa26/tests) repository. At some point after each phase completes, we'll update the repository with the private tests for that phase. We'll also add the public tests for the upcoming phase.
+We provide public test cases in the [6112-fa26/tests-fa-26](https://github.com/6112-fa26/tests-fa-26) repository. At some point after each phase completes, we'll update the repository with the private tests for that phase. We'll also add the public tests for the upcoming phase.
 
 We have a preliminary Python script that runs the tests against your interpreter. You'll need to expand this yourself for later phases.
 

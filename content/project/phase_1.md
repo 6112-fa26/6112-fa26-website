@@ -5,10 +5,9 @@ template = "page.html"
 +++
 This phase consists of two segments: lexical analysis (aka scanning or lexing) and syntactic analysis (aka parsing).
 
-> **Announcement:** There are three components you need to submit for this phase:
-> 1. Your scanner and parser code, due at **10:00 PM on Monday, September 28**.
-> 2. A short report, due at **10:00 PM on Monday, September 28**.
-> 3. Ten additional test cases, due at **10:00 PM on Monday, September 28**.
+> **Announcement:** Submit your scanner and parser code by **10:00 PM on Wednesday, September 23**.
+
+> **Announcement:** The in-person evaluation for this phase will take the form of a quiz held on **Monday, September 28, during regular class hours**.
 
 
 ## Getting Started
@@ -202,23 +201,20 @@ When you run the [`./run.sh parse` subcommand](@/project/cli.md#parse), your par
 
 ## Grading
 
-The grade for this phase is divided into 3 components.
+The grade for this phase is divided into two components:
 
-- **90%:** Passing the automated tests for your scanner and parser
-- **5%:** Your 10 additional test cases
-- **5%:** Your short report (about 3 paragraphs) explaining your approach
+- **80%:** In-person evaluation
+- **20%:** Passing the automated tests for your scanner and parser
 
 The public test cases are available at the [`6112-fa26/tests-fa-26` repository](https://github.com/6112-fa26/tests-fa-26).
 
-**Important:** This year, we have decided to publish a much smaller amount of public tests, so make sure that you thoroughly tests all corner cases with your own testcases. If you have any questions about what the correct behavior of the program should be in certain cases, feel free to ask on Piazza or during Office Hours.
+**Important:** This year, we have decided to publish far fewer public tests, so make sure that you thoroughly test all corner cases with your own test cases. If you have any questions about what the correct behavior of the program should be in certain cases, feel free to ask on Piazza or during office hours.
 
-**Important:** Don't copy code from other teams. This counts as cheating. You can look at and discuss other solutions, but the code you submit must be your own work.
+**Important:** This is an individual assignment. You may discuss high-level approaches with other students, but you may not share or copy code. The code you submit must be your own work. See the [collaboration policy](@/syllabus.md#collaboration-policy) for rules on using and citing external resources.
 
-## Submission
+## Code Submission
 
-### Code
-
-Submit your code through Gradescope under Phase 1 using GitHub:
+Submit your scanner and parser code through Gradescope under Phase 1 using GitHub by **10:00 PM on Wednesday, September 23**.
 
 > Gradescope submission link: Will be announced
 
@@ -226,33 +222,9 @@ Check the course [late policy](@/syllabus.md#late-policy) for submission deadlin
 
 > **Warning:** Make sure the `./build.sh` and `./run.sh` scripts are located at the **root** of your repository.
 
-### Tests
+## In-Person Evaluation
 
-Create 10 test files that are syntactically valid MITScript programs, along with their expected lexer output. The files should be named `test1.mit` through `test10.mit`, with corresponding lexer output files named `test1.mit.lex` through `test10.mit.lex`. Submit all 20 files to the separate Phase 1 tests assignment on Gradescope.
-
-> Gradescope submission link: Will be announced
-
-### Report
-
-Submit a short report (about 3 paragraphs) under Phase 1 Report on Gradescope.
-
-> Gradescope submission link: Will be announced
-
-As a soft rubric, your report should cover:
-
-1. **Implementation.** Explain at a high level how you implemented this phase:
-- What data structures did you use (e.g. ASTs)?
-- How did you handle and report multiple errors?
-
-2. **Testing and Debugging.** How did you check that your code works correctly?
-- Did you write extra test cases? How did you make sure you tested enough?
-- What tools or methods helped you find and fix bugs?
-
-3. **Reflection and Project Status.** Be honest about your progress:
-- Is everything working? Are there any failing tests or problems you know about?
-- If you could start over, what would you do differently?
-- Is there anything specific you'd like help with from the TAs?
-
+The in-person evaluation accounts for **80%** of your Phase 1 grade. It will be a quiz held during regular class hours on Monday, September 28. More details will be announced soon.
 
 ## Implementation Tips
 
