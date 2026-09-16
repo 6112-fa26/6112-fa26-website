@@ -216,7 +216,9 @@ The public test cases are available at the [`6112-fa26/tests-fa-26` repository](
 
 Submit your scanner and parser code through Gradescope under Phase 1 using GitHub by **10:00 PM on Wednesday, September 23**.
 
-> Gradescope submission link: Will be announced
+> [Gradescope submission link](https://www.gradescope.com/courses/1378085/assignments/8655713)
+>
+> You should be able to directly submit through github by specifying your repo and the branch you want to submit.
 
 Check the course [late policy](@/syllabus.md#late-policy) for submission deadlines.
 
