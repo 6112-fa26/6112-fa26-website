@@ -42,7 +42,7 @@ path = "/project/phase-5/"
 name = "Command Line Reference"
 path = "/project/cli/"
 
-[[items]]
+[[items.children]]
 name = "Resources"
 path = "/resources/"
 
@@ -53,3 +53,7 @@ path = "/lectures/"
 [[items]]
 name = "Recitations"
 path = "/recitations/"
+
+[[items]]
+name = "Miniquizzes"
+path = "/miniquizzes/"
