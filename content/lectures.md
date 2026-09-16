@@ -10,7 +10,7 @@ This page contains links to the presentations and supplementary material that ac
 - [L2: Lexing](https://docs.google.com/presentation/d/1AEw3J7ZDmopT43gErV47wyNYFT9O2kOI/edit?usp=sharing)
 - [L3: Parsing I](https://docs.google.com/presentation/d/1Sb_uPSsjHD42iqpe4izTDGDYRFxmwoPA/edit?usp=sharing)
 - [L4: Parsing II](https://docs.google.com/presentation/d/1FZ3tMxmqPPgMytJh87Ho47YbSM35tiom/edit?usp=sharing&ouid=115948321478908521136&rtpof=true&sd=true)
-- L5: Parsing III
+- [L5: Parsing III](https://docs.google.com/presentation/d/1L9QD8Nv3Tnox6qhANWK1v2DVINJsBFhE/edit?usp=sharing&ouid=115948321478908521136&rtpof=true&sd=true)
 - L6: Semantics (Intro)
 - L7: Semantics (IMP)
 - L8: Semantics (Heaps and Booleans)
