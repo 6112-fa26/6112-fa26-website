@@ -141,12 +141,18 @@ Use these exact names for the following token types: string literals (`STRINGLIT
 
 For string literals, show the exact text as it appears in the code, including the quotes and any escape characters.
 
-Here is an example corresponding to `if (true) {print("Hello, World!");}`:
+For all other terminals, such as operators and parentheses, print their exact text as it appears in the source code.
+
+Here is an example corresponding to `if (true | 1 <= 0) {print("Hello, World!");}`:
 
 ```sh
 1 if
 1 (
 1 BOOLEANLITERAL true
+1 |
+1 INTLITERAL 1
+1 <=
+1 INTLITERAL 0
 1 )
 1 {
 1 IDENTIFIER print
