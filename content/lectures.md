@@ -12,6 +12,7 @@ This page contains links to the presentations and supplementary material that ac
 - [L4: Parsing II](https://docs.google.com/presentation/d/1FZ3tMxmqPPgMytJh87Ho47YbSM35tiom/edit?usp=sharing&ouid=115948321478908521136&rtpof=true&sd=true)
 - [L5: Parsing III](https://docs.google.com/presentation/d/1L9QD8Nv3Tnox6qhANWK1v2DVINJsBFhE/edit?usp=sharing&ouid=115948321478908521136&rtpof=true&sd=true)
 - [L6: Semantics (Intro)](https://docs.google.com/presentation/d/1KjGmBBK3CwBe245B3xX0Dbj4nsEhxdV3/edit?usp=sharing&ouid=115948321478908521136&rtpof=true&sd=true)
+  - [Shift Reduce Parsing](/assets/documents/lectures/S13-lecture-03.pdf)
 - L7: Semantics (IMP)
 - L8: Semantics (Heaps and Booleans)
 - L9: Semantics (Scopes)
