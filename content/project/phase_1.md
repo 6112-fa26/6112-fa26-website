@@ -141,7 +141,7 @@ Use these exact names for the following token types: string literals (`STRINGLIT
 
 For string literals, show the exact text as it appears in the code, including the quotes and any escape characters.
 
-For all other terminals, such as operators and parentheses, print their exact text as it appears in the source code.
+For all other terminals, such as keywords, operators, and parentheses, print their exact text as it appears in the source code.
 
 Here is an example corresponding to `if (true | 1 <= 0) {print("Hello, World!");}`:
 
