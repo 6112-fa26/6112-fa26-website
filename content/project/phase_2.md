@@ -6,7 +6,7 @@ template = "page.html"
 
 In this phase, you will implement a recursive interpreter for the MITScript language. The semantics of MITScript is documented in the [language specification](@/project/spec.pdf)  which you should use to inform your interpreter implementation. Be sure to read it carefully.
 
-> There are three components you need to submit for this phase:
+> There are four components you need to submit for this phase:
 > 1. Your interpreter code, due at **10:00 PM on Friday, October 9**.
 > 2. Completion of formal semantic rules of the language specification, due at **10:00 PM on Friday, October 9**.
 > 3. A short report, due at **10:00 PM on Friday, October 9**.
