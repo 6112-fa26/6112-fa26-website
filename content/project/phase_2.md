@@ -6,13 +6,11 @@ template = "page.html"
 
 In this phase, you will implement a recursive interpreter for the MITScript language. The semantics of MITScript is documented in the [language specification](@/project/spec.pdf)  which you should use to inform your interpreter implementation. Be sure to read it carefully.
 
-{: .announcement }
 > There are three components you need to submit for this phase:
 > 1. Your interpreter code, due at **10:00 PM on Friday, October 9**.
-> 2. A short report, due at **10:00 PM on Friday, October 9**.
-> 3. Ten additional test cases, due at **10:00 PM on Friday, October 9**.
-
-{% include toc.html %}
+> 2. Completion of formal semantic rules of the language specification, due at **10:00 PM on Friday, October 9**.
+> 3. A short report, due at **10:00 PM on Friday, October 9**.
+> 4. Ten additional test cases, due at **10:00 PM on Friday, October 9**.
 
 ## Interpreter
 
@@ -37,7 +35,7 @@ We will be evaluating your interpreter by passing in programs and verifying that
 {: .important}
 > Because we are testing the textual output, make sure your interpreter does not produce any unnecessary output (e.g., logging or debugging output); it should only produce the output as specified in the semantics.
 
-Whenever a program performs an illegal operation, your interpreter should report an error (read the [language specification](assets/documents/spec.pdf) for more details), stop execution, and exit with a non-zero return code.
+Whenever a program performs an illegal operation, your interpreter should report an error (read the [language specification](@/project/spec.pdf)  for more details), stop execution, and exit with a non-zero return code.
 
 We will also evaluate your interpreter by checking that it correctly reports errors *and* returns a non-zero exit code for programs that have runtime errors.
 
@@ -90,52 +88,38 @@ In the case of the heap (a map from address to values), there is no need to defi
 
 Thus, for example, at any point in the semantics where you should allocate an address and map a value to that address, you can implement this by allocating memory for that value within your interpreter implementation (i.e., by using `new Integer`). As in Phase 1, you do not have to worry about deleting or reclaiming the memory you allocate; we will implement garbage collection in Phase 3.
 
-{: .important }
 > You should not use smart pointers for allocation here. `unique_ptr` is not suitable as there is not just a single owner for your values, stack frames, etc., and `shared_ptr` would manage memory incorrectly as it would respond poorly to cycles. We will implement manual memory management in Phase 3 via garbage collection.
 
 ## Grading
 
-This phase is worth 20% of your total grade:
+This phase is worth 15% of your total course grade. The grade for Phase 2 is as follows
+- 35% Implementation as passing the automated tests for your interpreter and your 10 additional test cases in the `additional-tests/` folder
+- 15% Semantics Write-up
+- 50% In-person assessment
 
-- Passing the automated tests for your interpreter
-- Your 10 additional test cases in the `additional-tests/` folder
-- Your short report (about 3 paragraphs) explaining your approach
-
-The public test cases are available at the [`6112-fa25/tests` repository](https://github.com/6112-fa25/tests).
-
-**Important:** Don't copy code from other teams. This counts as cheating. You can look at and discuss other solutions, but the code you submit must be your own work.
+**Important:** Don't copy code from other students. This counts as cheating. You can look at and discuss other solutions, but the code you submit must be your own work.
 
 ## Submission
 
 ### Code
 
-Submit your code and tests through [Gradescope under Phase 2](https://www.gradescope.com/courses/1099582/assignments/6772203) using GitHub:
-
-1. Push your code to your repository (`6112-fa25/<YOUR KERB>`)
-2. We recommend creating a separate branch for submission (like `phase2-submission`)
-3. Go to the Phase 2 assignment on Gradescope and select your repository and branch
-
-The autograder will run tests and show you how many you passed. It can take up to 40 minutes to run. Check the [Autograder][autograder] page for details about the testing environment.
-
-**Tip:** Submit early once your build system works to make sure the autograder can compile your code. You can submit as many times as you want before the deadline.
-
-Check the course [late policy]({% link _pages/syllabus.md %}#late-policy) for submission deadlines.
-
-We'll review your code on GitHub and may reduce your grade if we find suspicious patterns (like code written specifically to pass certain tests).
-
-{: .warning }
-Make sure the `./build.sh` and `./run.sh` scripts are located at the **root** of your repository, otherwise the autograder will fail.
+Gradscope link to be released.
 
 ### Tests
 
 Create 10 test files named `test11.mit` through `test20.mit` that your interpreter should be able to handle correctly. Put these in a folder called `additional-tests/` in your project. Try to test different features of the language.
 
+### Semantics 
+
+The language specification we've released includes several rules that have been left empty for you to complete as part of your submission. You should complete each rule. We will accept either scanned PDFs completed with handwriting or Latex PDF solutions (latex to be released shortly).
+
 ### Report
 
-Submit a short report (about 3 paragraphs) under [Phase 2 Report on Gradescope](https://www.gradescope.com/courses/1099582/assignments/6772230). As a soft rubric, your report should cover:
+Your submission should also include a short report (3-5 paragraphs) that discusses the following. 
 
 1. **Implementation.** Explain at a high level how you implemented this phase:
 - What data structures did you use (e.g. ASTs)?
+- If you used AI coding tools, how did you use them?
 
 2. **Testing and Debugging.** How did you check that your code works correctly?
 - Did you write extra test cases? How did you make sure you tested enough?
@@ -147,5 +131,3 @@ Submit a short report (about 3 paragraphs) under [Phase 2 Report on Gradescope](
 - Is there anything specific you'd like help with from the TAs?
 
 [s3]: https://studentlife.mit.edu/s3
-[autograder]: {% link _pages/tutorials/autograder.md %}
-[cli]: {% link _pages/project/cli.md %}
