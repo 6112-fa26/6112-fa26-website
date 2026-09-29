@@ -15,3 +15,4 @@ This page contains links to the presentations and supplementary material that ac
   - [Shift Reduce Parsing](../assets/documents/lectures/S13-lecture-03.pdf)
 - [L8: Semantics (IMP)](https://docs.google.com/presentation/d/1vd7kyYqxHeK_LUcRj5th3b539bVG5m_V/edit?usp=sharing&ouid=115948321478908521136&rtpof=true&sd=true)
 - [L9: Semantics (Types)](https://docs.google.com/presentation/d/1bCdaBw3n_H2WgF3XXeWf9X4ik3_AzgnY/edit?usp=sharing&ouid=115948321478908521136&rtpof=true&sd=true)
+- [L10: Semantics (Closures 1)](https://docs.google.com/presentation/d/1PrcUOnMmqWx1mV_2bUAhJzAh6xbAGEzn/edit?usp=sharing&ouid=115948321478908521136&rtpof=true&sd=true)
