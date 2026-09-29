@@ -4,7 +4,7 @@ weight = 15
 template = "page.html"
 +++
 
-In this phase, you will implement a recursive interpreter for the MITScript language. The semantics of MITScript is documented in the [language specification](@/project/spec.pdf)  which you should use to inform your interpreter implementation. Be sure to read it carefully.
+In this phase, you will implement a recursive interpreter for the MITScript language. The semantics of MITScript is documented in the [language specification](../../assets/documents/spec.pdf)  which you should use to inform your interpreter implementation. Be sure to read it carefully.
 
 > There are four components you need to submit for this phase:
 > 1. Your interpreter code, due at **10:00 PM on Friday, October 9**.
@@ -34,13 +34,13 @@ We will be evaluating your interpreter by passing in programs and verifying that
 
 > Because we are testing the textual output, make sure your interpreter does not produce any unnecessary output (e.g., logging or debugging output); it should only produce the output as specified in the semantics.
 
-Whenever a program performs an illegal operation, your interpreter should report an error (read the [language specification](@/project/spec.pdf)  for more details), stop execution, and exit with a non-zero return code.
+Whenever a program performs an illegal operation, your interpreter should report an error (read the [language specification](../../assets/documents/spec.pdf)  for more details), stop execution, and exit with a non-zero return code.
 
 We will also evaluate your interpreter by checking that it correctly reports errors *and* returns a non-zero exit code for programs that have runtime errors.
 
 ### Inference Rules
 
-Use the visitor pattern to implement the inference rules included in the [language specification](assets/documents/spec.pdf) in a recursive manner.
+Use the visitor pattern to implement the inference rules included in the [language specification](../../assets/documents/spec.pdf) in a recursive manner.
 
 Visit methods in a visitor takes as input an abstract syntax tree node (e.g. an expression) and returns void. However, an evaluation relation like $$(\Gamma, h, e) \rightarrow (h, v)$$ means that your implementation will take as input a stack and a heap – in addition to the expression – and produce a heap and a value.
 
