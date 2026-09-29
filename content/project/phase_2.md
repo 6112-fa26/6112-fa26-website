@@ -14,7 +14,7 @@ In this phase, you will implement a recursive interpreter for the MITScript lang
 
 ## Interpreter
 
-Your interpreter, which will be invoked by the [`./run.sh interpret` subcommand][cli], should take as input a single command-line argument that represents the path to a file containing an MITScript program. As output, your interpreter should produce the output, written to standard output, of the execution of that MITScript program according to the semantics given in the language specification.
+Your interpreter, which will be invoked by the [`./run.sh interpret` subcommand][@/project/cli.md#interface]. should take as input a single command-line argument that represents the path to a file containing an MITScript program. As output, your interpreter should produce the output, written to standard output, of the execution of that MITScript program according to the semantics given in the language specification.
 
  For instance, if `arith.mit` contains the following program:
 
