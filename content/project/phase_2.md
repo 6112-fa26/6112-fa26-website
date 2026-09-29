@@ -12,6 +12,8 @@ In this phase, you will implement a recursive interpreter for the MITScript lang
 > 3. A short report, due at **10:00 PM on Friday, October 9**.
 > 4. Ten additional test cases, due at **10:00 PM on Friday, October 9**.
 
+For this project, you will work in the same repository you used for Phase 1, building on your previous work. We have also provided a [skeleton](https://github.com/6112-fa26/phase2-skeleton) to help you get started with your implementation. You may copy this code into your repository and adapt it to your Phase 1 implementation if you wish.
+
 ## Interpreter
 
 Your interpreter, which will be invoked by the [`./run.sh interpret` subcommand](@/project/cli.md#interface). should take as input a single command-line argument that represents the path to a file containing an MITScript program. As output, your interpreter should produce the output, written to standard output, of the execution of that MITScript program according to the semantics given in the language specification.
