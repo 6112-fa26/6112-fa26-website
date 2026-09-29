@@ -110,7 +110,9 @@ Create 10 test files named `test11.mit` through `test20.mit` that your interpret
 
 ### Semantics 
 
-The language specification we've released includes several rules that have been left empty for you to complete as part of your submission. You should complete each rule. We will accept either scanned PDFs completed with handwriting or Latex PDF solutions (latex to be released shortly).
+The language specification we've released includes several rules that have been left empty for you to complete as part of your submission. We give natural language specifications for the behavior for each of these rules, but it is your task to translate these into formal notation. Your implementation should match the semantics that you document in the rules.  
+
+We will accept either scanned PDFs completed with handwriting or Latex PDF solutions (latex to be released shortly).
 
 ### Report
 
