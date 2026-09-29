@@ -14,7 +14,7 @@ In this phase, you will implement a recursive interpreter for the MITScript lang
 
 ## Interpreter
 
-Your interpreter, which will be invoked by the [`./run.sh interpret` subcommand][@/project/cli.md#interface]. should take as input a single command-line argument that represents the path to a file containing an MITScript program. As output, your interpreter should produce the output, written to standard output, of the execution of that MITScript program according to the semantics given in the language specification.
+Your interpreter, which will be invoked by the [`./run.sh interpret` subcommand](@/project/cli.md#interface). should take as input a single command-line argument that represents the path to a file containing an MITScript program. As output, your interpreter should produce the output, written to standard output, of the execution of that MITScript program according to the semantics given in the language specification.
 
  For instance, if `arith.mit` contains the following program:
 
@@ -32,7 +32,6 @@ Keep in mind, that the output must go to **standard output**, and not to an outp
 
 We will be evaluating your interpreter by passing in programs and verifying that the output of your interpreter matches that of our reference implementation.
 
-{: .important}
 > Because we are testing the textual output, make sure your interpreter does not produce any unnecessary output (e.g., logging or debugging output); it should only produce the output as specified in the semantics.
 
 Whenever a program performs an illegal operation, your interpreter should report an error (read the [language specification](@/project/spec.pdf)  for more details), stop execution, and exit with a non-zero return code.
@@ -41,7 +40,7 @@ We will also evaluate your interpreter by checking that it correctly reports err
 
 ### Inference Rules
 
-Use the visitor pattern to implement the inference rules included in the [language specification](assets/documents/spec.pdf) in a recursive manner. An example of this pattern, can be found in the example code in [`6112-fa25/recitation3`](https://github.com/6112-fa25/recitation3).
+Use the visitor pattern to implement the inference rules included in the [language specification](assets/documents/spec.pdf) in a recursive manner.
 
 Visit methods in a visitor takes as input an abstract syntax tree node (e.g. an expression) and returns void. However, an evaluation relation like $$(\Gamma, h, e) \rightarrow (h, v)$$ means that your implementation will take as input a stack and a heap – in addition to the expression – and produce a heap and a value.
 
@@ -88,11 +87,11 @@ In the case of the heap (a map from address to values), there is no need to defi
 
 Thus, for example, at any point in the semantics where you should allocate an address and map a value to that address, you can implement this by allocating memory for that value within your interpreter implementation (i.e., by using `new Integer`). As in Phase 1, you do not have to worry about deleting or reclaiming the memory you allocate; we will implement garbage collection in Phase 3.
 
-> You should not use smart pointers for allocation here. `unique_ptr` is not suitable as there is not just a single owner for your values, stack frames, etc., and `shared_ptr` would manage memory incorrectly as it would respond poorly to cycles. We will implement manual memory management in Phase 3 via garbage collection.
+> You should not use smart pointers for allocation here. `unique_ptr` is not suitable as there is not just a single owner for your values, stack frames, etc., and `shared_ptr` would manage memory incorrectly as it would respond poorly to cycles.
 
 ## Grading
 
-This phase is worth 15% of your total course grade. The grade for Phase 2 is as follows
+This phase is worth 15% of your total course grade. The grade for Phase 2 is as follows:
 - 35% Implementation as passing the automated tests for your interpreter and your 10 additional test cases in the `additional-tests/` folder
 - 15% Semantics Write-up
 - 50% In-person assessment
