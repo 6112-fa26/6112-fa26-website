@@ -17,3 +17,5 @@ This page contains links to the presentations and supplementary material that ac
 - [L9: Semantics (Types)](https://docs.google.com/presentation/d/1bCdaBw3n_H2WgF3XXeWf9X4ik3_AzgnY/edit?usp=sharing&ouid=115948321478908521136&rtpof=true&sd=true)
 - [L10: Semantics (Closures 1)](https://docs.google.com/presentation/d/1PrcUOnMmqWx1mV_2bUAhJzAh6xbAGEzn/edit?usp=sharing&ouid=115948321478908521136&rtpof=true&sd=true)
 - [L11: Semantics (Closures 2)](https://docs.google.com/presentation/d/14PhtBmLOGl35dW-x1PzBelIrYgmZGJvI/edit?usp=sharing&ouid=115948321478908521136&rtpof=true&sd=true)
+- [L12: Semantics (Closures 3)](https://docs.google.com/presentation/d/124zTHeOLrp5YOmCRyWtWiVyZnlgK8wi7/edit?usp=sharing&ouid=115948321478908521136&rtpof=true&sd=true)
+  - [Lecture video](https://mit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7e3a7e77-af35-497e-a170-b4d500f4e884&start=405)
