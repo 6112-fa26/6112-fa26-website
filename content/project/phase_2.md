@@ -104,7 +104,7 @@ This phase is worth 15% of your total course grade. The grade for Phase 2 is as 
 
 ### Code
 
-Gradscope link to be released.
+[Gradescope code submission link](https://www.gradescope.com/courses/1378085/assignments/8821702)
 
 ### Tests
 
@@ -112,11 +112,15 @@ Create 10 test files named `test11.mit` through `test20.mit` that your interpret
 
 ### Semantics 
 
+[Gradescope spec and report submission link](https://www.gradescope.com/courses/1378085/assignments/8821688)
+
 The language specification we've released includes several rules that have been left empty for you to complete as part of your submission. We give natural language specifications for the behavior for each of these rules, but it is your task to translate these into formal notation. Your implementation should match the semantics that you document in the rules.  
 
 We will accept either scanned PDFs completed with handwriting or Latex PDF solutions (latex to be released shortly).
 
 ### Report
+
+Submit your report together with your completed specification using the [Gradescope spec and report submission link](https://www.gradescope.com/courses/1378085/assignments/8821688).
 
 Your submission should also include a short report (3-5 paragraphs) that discusses the following. 
 
