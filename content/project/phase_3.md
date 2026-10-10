@@ -34,7 +34,7 @@ The reason for this is that your garbage collector header-only library will be l
 
 We will compile and run a set of C++ unit tests against your implementation of `src/gc/gc.hpp`. These tests will use your mark-and-sweep garbage collector to allocate and manage memory, and they are intended to evaluate the correctness of your garbage collector implementation.
 
-We will also run your interpreter with `--mem N` on a set of MITScript tests and verify that your VM stays within the specified memory limits. Examples of these tests will be released and available under `phase3/` in the tests repository. 
+We will also run your interpreter with `--mem N` on a set of MITScript tests and verify that your interpreter stays within the specified memory limits. Examples of these tests will be released and available under `phase3/` in the tests repository. 
 
 To measure the peak memory usage of your interpreter, we will use `/usr/bin/time -v` and look at the reported maximum resident set size, which should be within `N + 5 MB`. The additional 5 MB is to allow for extra memory that's needed to load your interpreter binary into memory. These tests are intended to evaluate whether your interpreter properly invokes the garbage collector to limit memory usage.
 
