@@ -93,7 +93,7 @@ This phase is worth 10% of your total grade:
 
 The public test cases are available at the [`6112-fa26/tests` repository](https://github.com/6112-fa26/tests).
 
-**Important:** Don't copy code from other teams. This counts as cheating. You can look at and discuss other solutions, but the code you submit must be your own work.
+**Important:** Our standard policies for AI Coding tools and collaboration are the same as before.
 
 ## Submission
 
