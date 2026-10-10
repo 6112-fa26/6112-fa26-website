@@ -127,7 +127,4 @@ Submit a short report (about 3 paragraphs). As a soft rubric, your report should
 - Is there anything specific you'd like help with from the TAs?
 
 [s3]: https://studentlife.mit.edu/s3
-[autograder]: {% link _pages/tutorials/autograder.md %}
-[p4]: {% link _pages/project/phase_4.md %}
-[cli]: {% link _pages/project/cli.md %}
 
