@@ -115,6 +115,7 @@ Submit a short report (about 3 paragraphs). As a soft rubric, your report should
 
 1. **Implementation.** Explain at a high level how you implemented this phase:
 - What data structures did you use (e.g. garbage collector)?
+- Are the any major design decisions or ambiguities you made or worked through?
 
 2. **Testing and Debugging.** How did you check that your code works correctly?
 - Did you write extra test cases? How did you make sure you tested enough?
