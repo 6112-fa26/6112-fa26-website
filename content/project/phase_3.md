@@ -81,9 +81,7 @@ Below are some suggested enhancements on top of the basic implementation strateg
 - It is really, really important that your buffer is big enough to hold everything you want to put in it.
 
 - You may find it useful to replace any STL in your value classes with your own custom data structures. Again, make sure to measure the difference.
-- In particular, it could be better for spatial locality to implement a simple linked list as part of the Collectable class instead of keeping a `std::list` or `std::vector`. Again, make sure you measure that difference.
 
-- For integers, you may find it advantageous to keep a cache of recently allocated integers so that if the program tries to allocate the same integer value multiple times in a row your allocator just returns a pointer to the same object instead of allocating a new one.
 
 ## Grading
 
