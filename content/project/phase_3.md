@@ -14,7 +14,7 @@ In this phase, you will implement an automatic garbage collection system for you
 
 ## Garbage Collection
 
-The main starter code for this assignment is in `src/gc/gc.hpp`.
+To start the assignment, download the starter code <a href="../../assets/code/gc.hpp" download="gc.hpp">here</a> and copy it to `src/gc/gc.hpp`.
 
 > The autograder will search for `src/gc/gc.hpp` as your submission for this phase. If this file is not in this location (relative to the root of your repository), the autograder will **not be able to grade** your submission properly.
 
@@ -40,7 +40,7 @@ To measure the peak memory usage of your interpreter, we will use `/usr/bin/time
 
 Unfortunately, `/usr/bin/time` is not consistent between runs, so make sure you run it a couple of times to confirm you're always staying below the limit.
 
-Examples of both types of tests can be found in `6112-fa26/tests` under `phase3/public`.
+Examples of both types of tests can be found in this [repository](https://github.com/6112-fa26/tests-fa-26) under `phase3/public`.
 
 ## Implementation Notes
 
@@ -60,7 +60,7 @@ If you follow this approach, be aware of the following challenges.
 
 You need to decide when to call `gc()`. Keep in mind that garbage collection is expensive, so you do not want to do it until you have to. At the same time, if your interpreter does not trigger garbage collection frequently enough, it might exceed the specified memory limit.
 
-You might find Valgrind (in particular, memcheck and massif) to be useful for debugging your garbage collector. If you need help using them, please post on Piazza.
+You might find ASAN and Valgrind (in particular, memcheck and massif) to be useful for debugging your garbage collector. If you need help using them, please post on Piazza.
 
 ## Improvements
 
@@ -91,7 +91,7 @@ This phase is worth 10% of your total grade:
 - 50% Implementation: Passing the C++ unit tests for your garbage collector and your 5 additional test cases in the `additional-tests/` folder. Also, your short report (about 3 paragraphs) explaining your approach
 - 50% In-person assessment
 
-The public test cases are available at the [`6112-fa26/tests` repository](https://github.com/6112-fa26/tests).
+The public test cases are at this [repository](https://github.com/6112-fa26/tests-fa-26).
 
 **Important:** Our standard policies for AI Coding tools and collaboration are the same as before.
 
