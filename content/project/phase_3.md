@@ -72,13 +72,13 @@ Below are some suggested enhancements on top of the basic implementation strateg
 
 - An example reason to do this is to allocate multiple pieces of data in a single buffer. For example, for String values, you can allocate a single buffer that contains both the Value class as well as the characters that actually make up the string. You can also use this trick to allocate stack frames so that all the different tables that make up the stack frame are allocated in the same contiguous buffer. If you do this, keep in mind three things:
 
-- Make sure you have performance numbers that justify the optimization
-- Memory should always be freed in the same way it was allocated
-- If allocated with new, should be deallocated with `delete`.
-- If allocated with malloc, it should be deallocated with free
-- If allocated via a memory resource, it should be deallocated via that resource.
-- When you deallocate memory with `delete`, the compiler will automatically call the destructor. But if you create an object with new (ptr) and then use free to deallocate the underlying memory, the destructor will not be called automatically. You need to call the destructor explicitly before freeing the memory.
-- It is really, really important that your buffer is big enough to hold everything you want to put in it.
+  - Make sure you have performance numbers that justify the optimization
+  - Memory should always be freed in the same way it was allocated
+    - If allocated with new, should be deallocated with `delete`.
+    - If allocated with malloc, it should be deallocated with free
+    - If allocated via a memory resource, it should be deallocated via that resource.
+    - When you deallocate memory with `delete`, the compiler will automatically call the destructor. But if you create an object with new (ptr) and then use free to deallocate the underlying memory, the destructor will not be called automatically. You need to call the destructor explicitly before freeing the memory.
+  - It is really, really important that your buffer is big enough to hold everything you want to put in it.
 
 - You may find it useful to replace any STL in your value classes with your own custom data structures. Again, make sure to measure the difference.
 
