@@ -10,7 +10,7 @@ In this phase, you will implement an automatic garbage collection system for you
 > There are three components you need to submit for this phase:
 > 1. Your garbage collector code, due at **10:00 PM on Monday, October 19**.
 > 2. A short report, due at **10:00 PM on Monday, October 19**.
-> 3. Five additional test cases, due at **0:00 PM on Monday, October 19***.
+> 3. Five additional test cases, due at **10:00 PM on Monday, October 19***.
 
 ## Garbage Collection
 
