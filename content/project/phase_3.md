@@ -87,11 +87,11 @@ Below are some suggested enhancements on top of the basic implementation strateg
 
 ## Grading
 
+
 This phase is worth 10% of your total grade:
 
-- Passing the C++ unit tests for your garbage collector
-- Your 5 additional test cases in the `additional-tests/` folder
-- Your short report (about 3 paragraphs) explaining your approach
+- 50% Implementation: Passing the C++ unit tests for your garbage collector and your 5 additional test cases in the `additional-tests/` folder. Also, your short report (about 3 paragraphs) explaining your approach
+- 50% In-person assessment
 
 The public test cases are available at the [`6112-fa26/tests` repository](https://github.com/6112-fa26/tests).
 
