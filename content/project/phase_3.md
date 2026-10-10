@@ -103,8 +103,6 @@ The public test cases are available at the [`6112-fa26/tests` repository](https:
 
 Submit your code and tests through Gradescope. Links to be provided. 
 
-Check the course [late policy]({% link _pages/syllabus.md %}#late-policy) for submission deadlines.
-
 We'll review your code on GitHub and may reduce your grade if we find suspicious patterns (like code written specifically to pass certain tests).
 
 Make sure the `./build.sh` and `./run.sh` scripts are located at the **root** of your repository, otherwise the autograder will fail.
