@@ -6,6 +6,10 @@ template = "page.html"
 This page contains a number of useful and/or interesting references selected by the staff. You are not expected to know most of the material on this page for the class; however, you may find it interesting and helpful. We had a lot of fun curating this!
 
 
+## Past quiz problems
+
+- **Phase 1: Lexing and parsing** — [Problems](../assets/documents/recitations/lexing_parsing_questions_without_6110.pdf) · [Solutions](../assets/documents/recitations/lexing_parsing_questions_and_answers_without_6110.pdf)
+- **Phase 2: Semantics** — [Problems](../assets/documents/practice/semantics_questions.pdf) · [Solutions](../assets/documents/practice/semantics_questions_and_answers.pdf)
 
 ## References
 
