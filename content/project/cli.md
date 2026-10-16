@@ -16,7 +16,7 @@ POSITIONALS:
 OPTIONS:
   -h,     --help              Print this help message and exit
   -o,     --output TEXT       Path to output file, use '-' for stdout
-  -m,     --mem UINT          Memory limit in MB -- Only enabled for VM subcommand
+  -m,     --mem UINT          Memory limit in MB
   -O,     --opt TEXT          Optimization flags -- Only enabled for derby subcommand
 
 SUBCOMMANDS:
