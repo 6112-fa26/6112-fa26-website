@@ -278,7 +278,7 @@ A stack frame in MITScript includes:
 Many of your runtime structures will be allocated in a heap. You must use some sort of garabge collector to manage the allocated data and runtime structures, namely your Phase 3 implementation.
 
 ### Garbage Collection
-Your virtual machine should support a command line argument of the form `--mem N` ([Command Line Reference][cli]), where `N` is the maximum amount of memory (in MB) that the VM can have allocated at any time.
+Your virtual machine should support a command line argument of the form `--mem N` ([Command Line Reference][@/project/cli.md]), where `N` is the maximum amount of memory (in MB) that the VM can have allocated at any time.
 
 You can assume that `N` will be at least twice as large as the maximum amount of memory that will ever be required by the program you are running. You can also assume that `N` will always be at least 4. Your garbage collector should make sure that the virtual machine never has more than this amount of memory allocated at any time.
 
