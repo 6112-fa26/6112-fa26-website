@@ -3,8 +3,6 @@ title = "Phase 4"
 weight = 40
 template = "page.html"
 +++
-To be announced.
-
 
 In this phase, you will implement both a bytecode compiler and interpreter for the MITScript virtual machine.
 
