@@ -16,7 +16,7 @@ Given that intermediate representation, your bytecode virtual machine will execu
 > 1. Your bytecode compiler code, due at **10:00 PM on Tuesday, November 10**.
 > 2. Your bytecode interpreter code, due at **10:00 PM on Tuesday, November 10**.
 > 3. A  report, due at **10:00 PM on Tuesday, November 10**.
-> 4. Ten additional test cases, due at **10:00 PM on Friday, November 10**.
+> 4. Ten additional test cases, due at **10:00 PM on Tuesday, November 10**.
 
 > This phase is **long**, as it requires two major deliverables: both a compiler and a virtual machine. Please start early and coordinate your work amongst your team clearly!
 
@@ -392,7 +392,7 @@ The goal of these checkpoints is to make sure you are incentivized to make progr
 This phase is worth 35% of your total grade:
 
 - 60% Implementation: Passing the correctness tests.
-- 10% Written Report: Consistent with code, LLM use is permitted when writing the report. However, poorly crafted and disorganized reports (regardless of origin) will lose points if we find them difficult to read or if they do not clearly and cogently articulate the ideas. We also may request in-person discussion of aspects the report that are unclear. 
+- 10% Written Report: Consistent with code, LLM use is permitted when writing the report. However, poorly crafted and disorganized reports (regardless of origin) will lose points if we find them difficult to read or if they do not clearly and cogently articulate the ideas (so be wary of AI slop if you so choose to use those tools). We also may request in-person discussion of aspects for the report that are unclear; in the absence of demonstrated understanding we will not award points, however we will not assign negative points or opinions for suspicion of AI use.
 - 30% In-person assessment
 
 ## Implementation Notes
