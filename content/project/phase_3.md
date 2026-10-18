@@ -99,7 +99,7 @@ The public test cases are at this [repository](https://github.com/6112-fa26/test
 
 ### Code
 
-Submit your code and tests through Gradescope. Links to be provided. 
+Submit your code and tests using the [Gradescope code submission link](https://www.gradescope.com/courses/1378085/assignments/8893388/).
 
 We'll review your code on GitHub and may reduce your grade if we find suspicious patterns (like code written specifically to pass certain tests).
 
@@ -111,7 +111,7 @@ Create 5 test files named `test21.cpp` through `test25.cpp` that your garbage co
 
 ### Report
 
-Submit a short report (about 3 paragraphs). As a soft rubric, your report should cover:
+Submit a short report (about 3 paragraphs) using the [Gradescope report submission link](https://www.gradescope.com/courses/1378085/assignments/8893390). As a soft rubric, your report should cover:
 
 1. **Implementation.** Explain at a high level how you implemented this phase:
 - What data structures did you use (e.g. garbage collector)?
