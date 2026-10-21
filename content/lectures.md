@@ -22,3 +22,4 @@ This page contains links to the presentations and supplementary material that ac
 - [L13: Memory Management (Part 1)](https://docs.google.com/presentation/d/1DaXrdavue3BVT4y6vxv0I92dRZ3vjVYR/edit?usp=sharing&ouid=115948321478908521136&rtpof=true&sd=true)
 - [L14: Memory Management (Part 2)](https://docs.google.com/presentation/d/1Imytnw0qNecK0eRFoHmuu4O71NtVxN_I/edit?usp=sharing&ouid=115948321478908521136&rtpof=true&sd=true)
 - [L15: Generational Garbage Collection](https://docs.google.com/presentation/d/1pubSuYe5X8o1M1mOWDzV_aU5eyFgF6J3/edit?usp=sharing)
+- [L16: Virtual Machines](https://docs.google.com/presentation/d/1qa-6S6paihF1a9ZyFDkWhsbQlbUs5G_U/edit?usp=sharing)
