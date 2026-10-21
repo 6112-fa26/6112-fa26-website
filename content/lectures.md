@@ -21,3 +21,4 @@ This page contains links to the presentations and supplementary material that ac
   - [Lecture video](https://mit.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7e3a7e77-af35-497e-a170-b4d500f4e884&start=405)
 - [L13: Memory Management (Part 1)](https://docs.google.com/presentation/d/1DaXrdavue3BVT4y6vxv0I92dRZ3vjVYR/edit?usp=sharing&ouid=115948321478908521136&rtpof=true&sd=true)
 - [L14: Memory Management (Part 2)](https://docs.google.com/presentation/d/1Imytnw0qNecK0eRFoHmuu4O71NtVxN_I/edit?usp=sharing&ouid=115948321478908521136&rtpof=true&sd=true)
+- [L15: Generational Garbage Collection](https://docs.google.com/presentation/d/1pubSuYe5X8o1M1mOWDzV_aU5eyFgF6J3/edit?usp=sharing)
