@@ -24,3 +24,4 @@ This page contains links to the presentations and supplementary material that ac
 - [L15: Generational Garbage Collection](https://docs.google.com/presentation/d/1pubSuYe5X8o1M1mOWDzV_aU5eyFgF6J3/edit?usp=sharing)
 - [L16: Virtual Machines](https://docs.google.com/presentation/d/1qa-6S6paihF1a9ZyFDkWhsbQlbUs5G_U/edit?usp=sharing)
 - [L17: Virtual Machines (Syntax-Directed Translation)](https://docs.google.com/presentation/d/1xsqImJAvEnJOchIch-AYpi1OLRTt1zMB/edit?usp=sharing)
+- [L18: Virtual Machines (Syntax-Directed Translation)](https://docs.google.com/presentation/d/18UWuPYxG_Qq-x2_kQaY1lAdMeU9XQNR9/edit?usp=sharing)
