@@ -312,7 +312,7 @@ In this case, the bytecode compiler has failed to generate the code to load the 
 
 Your bytecode interpreter should generate the following additional exceptions:
 
-- `InsufficentStackException`: when an instruction cannot pop a sufficient number of arguments from the operand stack
+- `InsufficientStackException`: when an instruction cannot pop a sufficient number of arguments from the operand stack
 - `RuntimeException`: for all other VM error conditions not covered by Phase 2.
 
 Your interpreter should also generate a `RuntimeException` if the provided bytecode attempts to perform an operation with objects that were not given a semantics in Phase 2. For example, if the bytecode attempts to print a variable reference, then your interpreter should generate a `RuntimeException`.
