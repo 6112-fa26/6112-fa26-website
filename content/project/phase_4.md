@@ -331,13 +331,17 @@ The interface for the compiler should be `./run.sh compile <input>.mit -o <outpu
 
 ## Submission
 
+> The link to submit your Phase 4 code is [here](https://www.gradescope.com/courses/1378085/assignments/8959034/). Please submit together as a team (one submission per team)!
+
+<!-- Separate submission boxes. -->
+
+> The link to submit your Phase 4 report is [here](https://www.gradescope.com/courses/1378085/assignments/8959044/). Please submit together as a team (one submission per team)!
+
 ### Code
 
-Submit your code and tests through GradeScope (instructions to be given)
+Submit your code and tests through Gradescope using the code submission link above.
 
 **Important:** Please only have one submission for your entire team. Include each of your team members in the submission on Gradescope. When grading, we will just grade the most recent submission from your team (so make sure you are all on the same page)!
-
-**Tip:** Submit early once your build system works to make sure the autograder can compile your code. You can submit as many times as you want before the deadline.
 
 Check the course late policy for submission deadlines.
 
@@ -379,11 +383,11 @@ To evaluate your garbage collector, your virtual machine should support a comman
 
 ## Extra Credit Checkpoints
 
-> The link to submit the first extra credit checkpoint is [here](https://www.gradescope.com/courses/1378085/assignments/8958262/).
+> The link to submit the first extra credit checkpoint is [here](https://www.gradescope.com/courses/1378085/assignments/8958262/). Please submit together as a team (one submission per team)!
 
 <!-- Separate submission boxes. -->
 
-> The link to submit the second extra credit checkpoint is [here](https://www.gradescope.com/courses/1378085/assignments/8958270/).
+> The link to submit the second extra credit checkpoint is [here](https://www.gradescope.com/courses/1378085/assignments/8958270/). Please submit together as a team (one submission per team)!
 
 Phase 4 has two extra credit checkpoints. For the first checkpoint (due October 30th at 10 pm ET), we will run your virtual machine only on Phase 4 **bytecode tests** and assign extra credit towards your Phase 4 grade in proportion to the proportion of test cases you get correct (maximum 5% for fully correct).
 
