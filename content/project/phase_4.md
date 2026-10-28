@@ -378,6 +378,13 @@ To evaluate your interpreter, we will execute your interpreter on test programs 
 To evaluate your garbage collector, your virtual machine should support a command line argument of the form `--mem N` ([Command Line Reference][@/project/cli.md]), where `N` is the maximum amount of memory (in MB) that the VM can have allocated at any time. You can assume that `N` will be at least twice as large as the maximum amount of memory that will ever be required by the program you are running. You can also assume that `N` will always be at least 4. Your garbage collector should make sure that the virtual machine never has more than this amount of memory allocated at any time. Some tests for this assignment will depend on the ability of your implementation to stay within the memory limits given by `--mem N`.
 
 ## Extra Credit Checkpoints
+
+> The link to submit the first extra credit checkpoint is [here](https://www.gradescope.com/courses/1378085/assignments/8958262/).
+
+<!-- Separate submission boxes. -->
+
+> The link to submit the second extra credit checkpoint is [here](https://www.gradescope.com/courses/1378085/assignments/8958270/).
+
 Phase 4 has two extra credit checkpoints. For the first checkpoint (due October 30th at 10 pm ET), we will run your virtual machine only on Phase 4 **bytecode tests** and assign extra credit towards your Phase 4 grade in proportion to the proportion of test cases you get correct (maximum 5% for fully correct).
 
 For the second checkpoint (due November 6th at 10 pm ET), we will run your compiler and virtual machine end-to-end on Phase 4 tests and again assign extra credit towards your Phase 4 grade in proportion to the proportion of test cases you get correct (maximum 5% for fully correct).
