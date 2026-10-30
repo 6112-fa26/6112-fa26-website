@@ -387,7 +387,7 @@ To evaluate your garbage collector, your virtual machine should support a comman
 
 <!-- Separate submission boxes. -->
 
-> The link to submit the second extra credit checkpoint is [here](https://www.gradescope.com/courses/1378085/assignments/8958270/). Please submit together as a team (one submission per team)!
+> The link to submit the second extra credit checkpoint is [here](https://www.gradescope.com/courses/1378085/assignments/8978820/). Please submit together as a team (one submission per team)!
 
 Phase 4 has two extra credit checkpoints. For the first checkpoint (due October 30th at 10 pm ET), we will run your virtual machine only on Phase 4 **bytecode tests** and assign extra credit towards your Phase 4 grade in proportion to the proportion of test cases you get correct (maximum 5% for fully correct).
 
