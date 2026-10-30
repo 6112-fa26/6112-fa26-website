@@ -8,8 +8,8 @@ template = "page.html"
 Your goal for this final phase is to optimize your virtual machine implementation in order to minimize the amount of time needed to execute MITScript programs.
 
 > There are two components you need to submit for this phase:
-> 1. Your derby-ready interpreter, due at **10:00 PM ET on Wednesday, December 2 (tentative)**.
-> 2. A comprehensive report, due at **10:00 PM ET on Wednesday, December 2 (tentative)**.
+> 1. Your derby-ready interpreter, due at **10:00 PM ET on Wednesday, December 2**.
+> 2. A comprehensive report, due at **10:00 PM ET on Wednesday, December 2**.
 
 
 
@@ -98,6 +98,8 @@ Make sure the `./build.sh` and `./run.sh` scripts are located at the **root** of
 
 The report for this phase is extremely important. Although it explicitly accounts for only 20% of the grade, it will also be used to determine your score for the implementation aspect of the project (50%).
 
+Consistent with code, LLM use is permitted when writing the report. However, poorly crafted and disorganized reports (regardless of origin) will lose points if we find them difficult to read or if they do not clearly and cogently articulate the ideas (so be wary of AI slop if you so choose to use those tools). We also may request in-person discussion of aspects for the report that are unclear; in the absence of demonstrated understanding we will not award points, however we will not assign negative points or opinions for suspicion of AI use.
+
 **Your report must clearly identify all optimizations that are implemented in your VM and, for each optimization, specify where in your code base that optimization is implemented.** For each optimization, your report must convince the reader that the optimization is beneficial, general, and correct. For each optimization that affects code generation, you should also specify the corresponding command-line option that enables that specific optimization. In addition, your report should include a discussion on other optimizations that you considered but opted against implementing. (Remember that the thoroughness of your exploration of the optimization space can significantly impact the performance of your VM—and your grade as a result.)
 
 For runtime representation and garbage collection optimizations, your report should include diagrams that illustrate your representation changes and algorithms. For optimizations that affect code generation, you should include code examples (in bytecode/IR or assembly) for each optimization that show how the optimization transforms code that your VM generates. Highlight the benefits of the optimization on generated code. Discuss exactly how the benefits are achieved given the characteristics of our target architecture and include empirical evidence that proves your conclusion for the optimization.
@@ -135,7 +137,7 @@ Phase 5 has one extra credit checkpoint, with a deadline to be announced. We wil
 
 ## Derby
 
-The derby is tentatively scheduled for **Thursday, December 10, from 1:00–2:00 PM ET**. The leaderboard and benchmark release schedule will be announced. Your virtual machine will compete against submissions from the other groups in the class.
+The derby is scheduled for **Thursday, December 10, from 1:00–2:00 PM ET**. The leaderboard and benchmark release schedule will be announced. Your virtual machine will compete against submissions from the other groups in the class.
 
 As mentioned previously, 30% of your grade for this phase will be determined by your VM's performance in the derby. The way your grade is calculated from your VM's performance will be announced later.
 
