@@ -383,7 +383,7 @@ To evaluate your garbage collector, your virtual machine should support a comman
 
 ## Extra Credit Checkpoints
 
-> The link to submit the first extra credit checkpoint is [here](https://www.gradescope.com/courses/1378085/assignments/8958262/). Please submit together as a team (one submission per team)!
+> The link to submit the first extra credit checkpoint is [here](https://www.gradescope.com/courses/1378085/assignments/8978787/). Please submit together as a team (one submission per team)!
 
 <!-- Separate submission boxes. -->
 
