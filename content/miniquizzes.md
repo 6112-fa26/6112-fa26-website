@@ -23,3 +23,4 @@ Use the blank miniquizzes to practice and the solutions to check your answers.
 - Miniquiz 14: [Blank quiz](https://drive.google.com/file/d/1ripw-FDZBbJNt8TtMWRILPc36qtf0mD2/view?usp=sharing) · [Solutions](https://drive.google.com/file/d/17LgKLK2WwdltTk9J0AofXeD8t4An7OUe/view?usp=sharing)
 - Miniquiz 15: [Blank quiz](https://drive.google.com/file/d/1NMzq7mXyK7vVL-8H7ojwjkqghlxDgoew/view?usp=sharing) · [Solutions](https://drive.google.com/file/d/1PIXJSRCY1d60IbUcWw2__YBYr4mP2LX1/view?usp=sharing)
 - Miniquiz 16: [Blank quiz](https://drive.google.com/file/d/1-Skqi7ZcHcePvyZebeJPiwaVpoJlq5lc/view?usp=sharing) · [Solutions](https://drive.google.com/file/d/1eEVv_RwQaTNqB72v6skeJcby1Zhtl4wz/view?usp=sharing)
+- Miniquiz 17: [Blank quiz](https://drive.google.com/file/d/1cZyeepCxTBjY8BEs4wfPfuHZm8kmVQsF/view?usp=sharing) · [Solutions](https://drive.google.com/file/d/1W5FZ6nCa2yU6L6yMyV1oLshruhWFU0RS/view?usp=sharing)
