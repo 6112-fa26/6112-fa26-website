@@ -26,3 +26,5 @@ This page contains links to the presentations and supplementary material that ac
 - [L17: Virtual Machines (Syntax-Directed Translation)](https://docs.google.com/presentation/d/1xsqImJAvEnJOchIch-AYpi1OLRTt1zMB/edit?usp=sharing)
 - [L18: Virtual Machines (Syntax-Directed Translation)](https://docs.google.com/presentation/d/18UWuPYxG_Qq-x2_kQaY1lAdMeU9XQNR9/edit?usp=sharing)
 - [L19: Virtual Machines (Syntax-Directed Translation)](https://docs.google.com/presentation/d/15aDalBkIUDz6W0E8f1IboqmiB2Qu-LuB/edit?usp=sharing)
+- [L20: Virtual Machines (Syntax-Directed Translation)](https://docs.google.com/presentation/d/1dZjHPj-6im6BiSHKa2zfTE4vT1IqGZIt/edit?usp=sharing)
+- [L21: Optimizations](https://docs.google.com/presentation/d/1GkrORrGuHzC4FCoiOq_zkIw9LGD31VLs/edit?usp=sharing)
