@@ -15,3 +15,4 @@ The recitations cover tutorial content relevant for the project. Earlier recitat
 - [Recitation 4](@/recitations/recitation4.md)
 - [Recitation 5](@/recitations/recitation5.md)
 - [Recitation 6](@/recitations/recitation6.md)
+- [Recitation 7](@/recitations/recitation7.md)
