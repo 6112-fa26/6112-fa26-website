@@ -129,6 +129,8 @@ This assignment will be graded as follows:
 
 ## Milestone
 
+> The link to submit the milestone is [here](https://www.gradescope.com/courses/1378085/assignments/9082209). Please submit together as a team (one submission per team)!
+
 For the milestone (due **10:00 PM ET on Friday, November 20**), you are expected to submit a preliminary writeup that describes the optimizations you plan on implementing in your VM and gives an overview of your design. As with the final writeup, the preliminary writeup should include code examples or diagrams (e.g. control flow graphs) that demonstrate how your optimizations will work and how they can optimize generated code. The writeup should also provide justifications for why you believe the proposed optimizations will be beneficial. Furthermore, the writeup should discuss other optimizations that you considered and explain why you have decided against implementing those optimizations.
 
 ## Extra Credit Checkpoint
