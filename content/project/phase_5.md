@@ -135,7 +135,9 @@ For the milestone (due **10:00 PM ET on Friday, November 20**), you are expected
 
 ## Extra Credit Checkpoint
 
-Phase 5 has one extra credit checkpoint, with a deadline to be announced. We will run your VM end to end on the Phase 5 public tests with the garbage collector and all optimizations enabled (i.e., with the command-line options `./run.sh derby program.mit -m N -O all` where `N` is the memory limit specified for each test program) and assign extra credit towards your Phase 5 grade in proportion to your VM's correctness.
+> The link to submit the extra credit checkpoint is [here](https://www.gradescope.com/courses/1378085/assignments/9095742). Please submit together as a team (one submission per team)!
+
+Phase 5 has one extra credit checkpoint, due **Wednesday, November 25**. We will run your VM end to end on the Phase 5 public tests with the garbage collector and all optimizations enabled (i.e., with the command-line options `./run.sh derby program.mit -m N -O all` where `N` is the memory limit specified for each test program) and assign extra credit towards your Phase 5 grade in proportion to your VM's correctness.
 
 ## Derby
 
